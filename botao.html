@@ -1,0 +1,41 @@
+<html>
+ <html lang="pt-br">
+  <head>
+     <meta charset="utf-8">
+     <title>Botao</title>
+ </head>
+  <body>
+     <div class="btn">clicar</div>
+ 
+  <button id="btnClique">Clique Aqui</button>
+
+ 
+ <style>
+  .btn{
+     padding: 10px 8px;
+     width: 50px;
+     color: #fff;
+     background: #209915;
+     border: 1px solid #555;
+     border-radius: 5px;
+     text-align: center;
+     user-select: none;
+     cursor: pointer;
+     padding-top: 10px;
+}
+
+ </style>
+
+<script>
+  const botao = document.getElementById("btnClique")
+    botao.addEventListener("click", fnSoma)
+
+  function fnSoma(){
+    alert(3+7)  
+    return 3+7
+}
+
+
+</script>
+  </body>
+</html>
